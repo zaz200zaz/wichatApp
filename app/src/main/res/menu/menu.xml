@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chatId"
+        android:icon="@drawable/message_image"
+        android:title="チャット"/>
+    <item
+        android:id="@+id/renrakusakiId"
+        android:icon="@drawable/renraku_saki_img"
+            android:title="連絡先"/>
+    <item
+        android:id="@+id/hakkenId"
+        android:icon="@drawable/hakken_img"
+        android:title="発見"/>
+    <item
+        android:id="@+id/jibunId"
+        android:icon="@drawable/jibun_image"
+        android:title="自分"/>
+</menu>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".JiBunGamen4"
+    >
+
+    <TextView
+        android:textColor="@color/black"
+        android:visibility="gone"
+        android:id="@+id/flagTextView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="55dp"
+        android:text="個人情報を登録してください⁈"/>
+    <TableLayout
+        android:id="@+id/tableId"
+        android:visibility="gone"
+        android:weightSum="9"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="姓　　名:" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtNameId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="TRANTHANH　TUAN" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="フリガナ:" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtHuRiGaNaNameId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="チャンタン　トゥアン" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="性　　別:" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtseibetsuId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="男性" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="生年月日："
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtTanjyoBiId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="1999/08/24" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="国　　籍：" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtKokusekiId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="ベトナム" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="郵便番号:" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtYuuBinBanGoId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="250-0324" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="2"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="住　　所：" />
+
+            <TextView
+
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtJyuSyoId"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:hint="神奈川県相模原市南区相武台三丁目10-15ハイツ松風103号室" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_weight="1"
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="電話番号:"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_weight="8"
+                android:id="@+id/txtDenWaBangGoId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="090-4094-2408" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
